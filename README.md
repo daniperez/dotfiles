@@ -32,3 +32,11 @@ You can also run <tt>dfm --help</tt>.
 ## My dotfiles
 
 My dotfiles are in the <tt>personal</tt> branch.
+
+# Dani's comments:
+
+To update the vundle submodule, do:
+
+    $ git submodule foreach git pull
+
+More at http://mirnazim.org/writings/vim-plugins-i-use/
