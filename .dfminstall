@@ -1,5 +1,6 @@
 .vim
 .vim/bundle
+.vim/bundle/.backup skip
 README.md skip
 t skip
 
