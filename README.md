@@ -29,14 +29,9 @@ For more information, check out the [wiki](http://github.com/justone/dotfiles/wi
 
 You can also run <tt>dfm --help</tt>.
 
-## My dotfiles
-
-My dotfiles are in the <tt>personal</tt> branch.
-
 # Dani's comments:
 
-To update the vundle submodule, do:
+To update dfm:
 
-    $ git submodule foreach git pull
-
-More at http://mirnazim.org/writings/vim-plugins-i-use/
+    ./bin/dfm remote add upstream git://github.com/justone/dotfiles.git
+    ./bin/dfm pull upstream master
