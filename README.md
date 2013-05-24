@@ -3,7 +3,7 @@
 ## Overview
 
 This repo is a skeleton/template/vanilla version of my dotfiles.  It contains a
-utility to help with managing and updating your dotfiles like I manage mine.
+utility ([dfm](https://github.com/justone/dfm)) to help with managing and updating your dotfiles like I manage mine.
 
 ## Using this repo
 
@@ -11,8 +11,8 @@ First, fork this repo.
 
 Then, add your dotfiles:
 
-    $ git clone git@github.com:username/dotfiles.git
-    $ cd dotfiles
+    $ git clone git@github.com:username/dotfiles.git .dotfiles
+    $ cd .dotfiles
     $  # edit files
     $  # edit files
     $ git push origin master
