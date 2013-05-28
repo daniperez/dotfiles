@@ -115,7 +115,6 @@ else \
 fi)'
 
 export EDITOR=vi
-
-source ~/bin/tmuxinator_completion
+#export TERM=xterm-256color
 
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
