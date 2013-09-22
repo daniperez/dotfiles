@@ -114,7 +114,7 @@ else \
   echo " '$Yellow$PathShort$Color_Off'\$ "; \
 fi)'
 
-export EDITOR=vi
+export EDITOR=vim
 #export TERM=xterm-256color
 
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
