@@ -1,3 +1,5 @@
 [user]
 	name = Dani Perez 
 	email = daniperez@users.sourceforge.net
+[push]
+	default = simple
