@@ -3,3 +3,7 @@
 	email = daniperez@users.sourceforge.net
 [push]
 	default = simple
+
+[alias]
+    nuke = !sh -c 'git branch -D $1 && git push origin :$1' -
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
