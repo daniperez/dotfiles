@@ -2,8 +2,9 @@
 
 ## Overview
 
-This repo is a skeleton/template/vanilla version of my dotfiles.  It contains a
-utility ([dfm](https://github.com/justone/dfm)) to help with managing and updating your dotfiles like I manage mine.
+This repo is a skeleton/template repo for tracking dotfiles.  It contains
+a utility ([dfm](https://github.com/justone/dfm)) to help with managing and
+updating your dotfiles.
 
 ## Using this repo
 
@@ -21,7 +22,7 @@ Finally, to install your dotfiles onto a new system:
 
     $ cd $HOME
     $ git clone git@github.com:username/dotfiles.git .dotfiles
-    $ ./.dotfiles/bin/dfm  # creates symlinks to install files
+    $ ./.dotfiles/bin/dfm install # creates symlinks to install files
 
 ## Full documentation
 
