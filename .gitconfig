@@ -5,7 +5,8 @@
 	default = simple
 
 [alias]
-    nuke = !sh -c 'echo -e "Are you sure you want to remove, locally and remotely, branch [$1]?" && echo "Ctrl-C to abort or any key to continue." && read foo && git tag archive/$1 $1 && git push origin archive/$1 && git branch -D $1 && git push origin :$1' -
+    archive = !sh -c 'echo -e "Are you sure you want to remove, locally and remotely, branch [$1]?" && echo "Ctrl-C to abort or any key to continue." && read foo && git tag archive/$1 $1 && git push origin archive/$1 && git branch -D $1 && git push origin :$1' -
+    nuke = !sh -c 'echo -e "Are you sure you want to remove, locally and remotely, branch [$1]?" && echo "Ctrl-C to abort or any key to continue." && read foo && git branch -D $1 && git push origin :$1' -
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 
 [core]
