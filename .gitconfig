@@ -1,8 +1,7 @@
 [user]
 	name = Dani Perez 
 	email = daniperez@users.noreply.github.com
-[push]
-	default = simple
+        useConfigOnly = true
 
 [alias]
     archive = !sh -c 'echo -e "Are you sure you want to remove, locally and remotely, branch [$1]?" && echo "Ctrl-C to abort or any key to continue." && read foo && git tag archive/$1 $1 && git push origin archive/$1 && git branch -D $1 && git push origin :$1' -
